@@ -6,12 +6,52 @@
 </head>
 
 <body>
+  <section class="form_wrap">
 
-  <div class="container">
-    <h1>hola mundo</h1>
-  </div>
+    <section class="cantact_info">
+      <section class="info_title">
+        <div class="logo"></div>
+        <h2>Diaco llc</h2>
+      </section>
+      <section class="info_items">
+        <p><span class="fa fa-envelope"></span> cody@diaco.us</p>
+        <p><span class="fa fa-mobile"></span> (480) 306 1365</p>
+      </section>
+    </section>
 
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <form action="" id="form_students" class="form_contact">
+      <h2>Envia un mensaje</h2>
+      <div class="user_info">
+        <label for="names">Nombres *</label>
+        <input type="text" id="names">
+
+        <label for="Last_name">Apellidos *</label>
+        <input type="text" id="Last_name">
+
+        <label for="phone">Telefono / Celular</label>
+        <input type="text" id="phone">
+
+        <label for="email">Correo electronico *</label>
+        <input type="text" id="email">
+
+        <label for="english_level">Nivel de ingles *</label>
+        <input type="text" id="english_level">
+
+        <label for="career">¿Que estudias? *</label>
+        <input type="text" id="career">
+
+        <label for="semester">¿En que semestre estas? *</label>
+        <input type="text" id="semester">
+
+        <label for="level_java">¿Sabes java? ¿Que tanto? *</label>
+        <textarea id="level_java"></textarea>
+
+        <input type="button" value="Terminar!" id="btnSend">
+      </div>
+    </form>
+
+  </section>
+
 </body>
 
 </html>
